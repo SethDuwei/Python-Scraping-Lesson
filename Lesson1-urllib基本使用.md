@@ -74,7 +74,9 @@ print (html)
 
 #### 可用方法
 >得到实际地址，直接地址可能被转发
+
 response.geturl() 
 >获取返回值，检查是否成功获得爬虫内容。200,成功
+
 response.getcode()
 response.info()
