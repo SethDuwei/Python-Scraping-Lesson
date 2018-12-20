@@ -1,5 +1,6 @@
-## urllib基本使用
+## Python 爬虫学习之路 Day1
 ## LESSON1 urllib request爬取百度首页内容
+学习资料：[传智播客python就业班第7阶段课程](https://www.youtube.com/watch?v=Z33ZoslTRTQ&list=PLC664nq_h8b81Eh0jERXmtKk_CWntvUnB&index=6)
 
 #### 1.最简单的读取方法
 缺点：没有封装header头，容易被发爬虫
@@ -20,7 +21,7 @@ print (html)
 ```
 
 #### 2.创建Request实例
-class urllib.request.Request(url, data=None, headers={}, origin_req_host=None, unverifiable=False, method=None)
+class urllib.request.***Request***(url, data=None, headers={}, origin_req_host=None, unverifiable=False, method=None)
 This class is an abstraction of a URL request.
 [urllib.request官方文档](https://docs.python.org/3/library/urllib.request.html#module-urllib.request)
 
