@@ -1,5 +1,8 @@
 ## urllib基本使用
-## urllib request爬取百度首页内容
+## LESSON1 urllib request爬取百度首页内容
+
+#### 最简单的读取方法
+缺点：没有封装header头，容易被发爬虫
 
 ```
 #导入urllib模块
