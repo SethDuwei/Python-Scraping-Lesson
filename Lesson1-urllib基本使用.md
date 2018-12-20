@@ -1,5 +1,5 @@
 ## Python 爬虫学习之路 Day1
-## LESSON1 urllib request爬取百度首页内容
+## urllib request爬取百度首页内容
 学习资料：[传智播客python就业班第7阶段课程](https://www.youtube.com/watch?v=Z33ZoslTRTQ&list=PLC664nq_h8b81Eh0jERXmtKk_CWntvUnB&index=6)
 
 #### 1.最简单的读取方法
