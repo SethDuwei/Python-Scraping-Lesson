@@ -25,6 +25,7 @@ print (html)
 class urllib.request.***Request***(url, data=None, headers={}, origin_req_host=None, unverifiable=False, method=None)
 This class is an abstraction of a URL request.
 创建Request对象实例，以使用更多参数
+
 ***需要再回头学习 Python OOP 面向对象编程***
 
 ```
