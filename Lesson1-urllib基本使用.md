@@ -1,7 +1,7 @@
 ## urllib基本使用
 ## urllib request爬取百度首页内容
 
-'''
+```
 #导入urllib模块
 import urllib.request
 
@@ -14,4 +14,4 @@ html = response.read()
 
 #显示读取的对象
 print (html)
-'''
+```
