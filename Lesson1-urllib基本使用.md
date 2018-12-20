@@ -39,3 +39,27 @@ html = response.read()
 #显示读取的对象
 print (html)
 ```
+
+#### 3.增加header报头信息，模拟浏览器，避免反爬
+
+***Request***对象中，关于headers参数的定义
+> ***headers*** should be a dictionary, and will be treated as if add_header() was called with each key and value as arguments. This is often used to “spoof” the User-Agent header value, which is used by a browser to identify itself – some HTTP servers only allow requests coming from common browsers as opposed to scripts. For example, Mozilla Firefox may identify itself as "Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11", while urllib’s default user agent string is "Python-urllib/2.6" (on Python 2.6).
+
+```
+#导入urllib模块
+import urllib.request
+
+#创建Header头信息，模拟浏览器
+user_agent = {"User-Agent":"User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"}
+
+#创建Request对象的实例，可以使用其他参数，如data,header等
+#传递headers参数，模拟浏览器避免被反爬
+request = urllib.request.Request("http://www.baidu.com",headers = user_agent)
+#urlopen返回一个对象，类似context manager有方法
+response = urlopen(request)
+#读取打开的对象
+html = response.read()
+
+#显示读取的对象
+print (html)
+```
