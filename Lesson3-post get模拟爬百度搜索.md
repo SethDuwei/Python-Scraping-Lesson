@@ -35,9 +35,17 @@ ls -a # 显示全部文件
 ls -l # 显示详细文件信息
 ls -l -h # 增加显示文件大小
 ls -lah
+cd 进入目录
+
+touch 新建文件
+rm 删除文件
+cat 查看文件
 
 # 参数先后顺序不影响效果
 cd
 clear
+touch 新建文件
+cat 查看文件
+history 查看历史命令
 ```
 
