@@ -28,7 +28,9 @@ ssh root@**.**.**.*** -p 26128
 退出 logout
 
 ```
+TAB 自动补全文件名
 ls --help 显示帮助文件
+man ls mannual文件
 ls -a # 显示全部文件
 ls -l # 显示详细文件信息
 ls -l -h # 增加显示文件大小
