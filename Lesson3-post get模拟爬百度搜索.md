@@ -28,6 +28,7 @@ ssh root@**.**.**.*** -p 26128
 退出 logout
 
 ```
+通配符 ? 一个字符串 * 多个字符
 TAB 自动补全文件名
 ls --help 显示帮助文件
 man ls mannual文件
@@ -47,5 +48,11 @@ clear
 touch 新建文件
 cat 查看文件
 history 查看历史命令
+
+# 重定向
+ls > demo.txt 将命令内容输出到一个文件中（覆盖）
+ls >> demo.txt 将新内容重定向到此文件中（末尾追加不覆盖）
+
+more 分屏显示查询内容
 ```
 
