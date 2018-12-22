@@ -22,10 +22,19 @@ Python3中，urlencode()在parse模块中
 #### 3.Linux基本操作
 [【python基础】之linux教学 day1-08-命令的基本格式、ls选项 黑马程序员/传智播客](https://www.youtube.com/watch?v=LKk_Rtjyh2A&index=8&list=PLNTlJhYDV6sNBSVrIiA_QfIQwk4sPVsBj)
 根据此内容从最基本的开始练习，打好扎实基础
+
+连接远程CentOS服务器
 ssh root@**.**.**.*** -p 26128
+退出 logout
 
 ```
-ls -a -l
+ls --help 显示帮助文件
+ls -a # 显示全部文件
+ls -l # 显示详细文件信息
+ls -l -h # 增加显示文件大小
+ls -lah
+
+# 参数先后顺序不影响效果
 cd
 clear
 ```
