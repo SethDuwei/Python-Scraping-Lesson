@@ -118,6 +118,7 @@ sudo Super User do
 su Switch User
 useradd new_user -m 添加用户 -m在home目录下创建同用户名目录
 passwd new_user 添加密码
+userdel 删除用户
 su new_user
 exit 退出当前账户
 ```
