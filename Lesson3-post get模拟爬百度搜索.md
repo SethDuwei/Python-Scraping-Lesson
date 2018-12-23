@@ -86,8 +86,18 @@ shutdown -h now 立即关机
 
 #### 以下信息为使用vs code进行git管理后添加更新
 git使用方法及vs code与github联动在逐步练习中
-使用vs code和Github连接进行版本管理，同步到线上使用如此爽快！
-以下为系统管理相关命令
+使用vs code和Github连接进行版本管理，同步到线上使用***如此爽快***！
+
+今天意外使用code写文档，竟然搞明白了git和code联动工作的问题。
+1. code以及git插件正常安装；
+2. git已连接至Github本人的账号，已通过SSH；
+3. 每次修改保存后，git显示change，stage change后再commit
+4. commit后再push到Github，至此和网页端同步成功！
+
+**之前的问题**
+没有学会基本的git原理和基本使用方式。匆忙开始vs code和git插件的联动，结果卡在save commit push的过程中。在更进一步之前还是要做好基础的学习。图形界面只是简化了命令行工具的使用，没搞清楚命令行的原理，只摸索图形工具也是困难重重。
+
+**系统管理命令**
 ```
 grep 查找内容相关的文本信息 PIP管道使用
 df -h disk free 硬盘使用情况
@@ -95,4 +105,9 @@ du -h disk usage 当前目录和文件的大小
 ifconfig # 查看IP信息,类似windows上的ipconfig命令
 ifconfig | grep 97 管道输出文本相关信息，查找含有97的文本段
 ping # 网络连通测试命令
+```
+**用户管理命令**
+Linux命令的学习不用面面俱到，简单了解即可，大概知道解决方案，碰到实际问题再查询巩固
+```
+useradd 添加用户
 ```
