@@ -74,6 +74,7 @@ tar -zxvf test.tar.gz 解压缩
 cal 日历 cal -y 2018
 date 日期
 ps process status 查看系统进程
+ps -aux 系统当前运行的所有程序
 
 
 
