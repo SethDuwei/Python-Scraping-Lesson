@@ -82,8 +82,17 @@ kill pid 杀死进程
 reboot 重启
 shutdown -h now 立即关机
 
-df -h 硬盘使用情况
-
-
 ```
 
+#### 以下信息为使用vs code进行git管理后添加更新
+git使用方法及vs code与github联动在逐步练习中
+使用vs code和Github连接进行版本管理，同步到线上使用如此爽快！
+以下为系统管理相关命令
+```
+grep 查找内容相关的文本信息 PIP管道使用
+df -h disk free 硬盘使用情况
+du -h disk usage 当前目录和文件的大小
+ifconfig # 查看IP信息,类似windows上的ipconfig命令
+ifconfig | grep 97 管道输出文本相关信息，查找含有97的文本段
+ping # 网络连通测试命令
+```
