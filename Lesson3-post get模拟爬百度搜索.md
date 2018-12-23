@@ -76,7 +76,7 @@ date 日期
 ps process status 查看系统进程
 ps -aux 系统当前运行的所有程序
 top 显示最消耗资源的进程 q 退出top程序
-htop 显示更全的资源使用信息表
+htop 显示更全的资源使用信息表 # CentOS没有此命令
 
 
 
