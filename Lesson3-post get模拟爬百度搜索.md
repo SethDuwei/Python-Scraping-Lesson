@@ -24,8 +24,12 @@ Python3中，urlencode()在parse模块中
 根据此内容从最基本的开始练习，打好扎实基础
 
 连接远程CentOS服务器
+SSH Secure Shell的缩写
+Mac Unix Linux都自带SSH，Windows没有！
+```
 ssh root@**.**.**.*** -p 26128
 退出 logout
+```
 
 ```
 通配符 ? 一个字符串 * 多个字符
@@ -108,6 +112,12 @@ ping # 网络连通测试命令
 ```
 **用户管理命令**
 Linux命令的学习不用面面俱到，简单了解即可，大概知道解决方案，碰到实际问题再查询巩固
+多用户登录，证明unix的多用户属性
 ```
-useradd 添加用户
+sudo Super User do
+su Switch User
+useradd new_user -m 添加用户 -m在home目录下创建同用户名目录
+passwd new_user 添加密码
+su new_user
+exit 退出当前账户
 ```
