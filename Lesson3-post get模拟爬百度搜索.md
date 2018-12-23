@@ -79,6 +79,10 @@ top 显示最消耗资源的进程 q 退出top程序
 htop 显示更全的资源使用信息表 # CentOS没有此命令
 kill pid 杀死进程
 
+reboot 重启
+shutdown -h now 立即关机
+
+df -h 硬盘使用情况
 
 
 ```
