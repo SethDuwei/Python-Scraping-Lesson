@@ -54,5 +54,14 @@ ls > demo.txt 将命令内容输出到一个文件中（覆盖）
 ls >> demo.txt 将新内容重定向到此文件中（末尾追加不覆盖）
 
 more 分屏显示查询内容
+
+#压缩与解压缩
+打包，不压缩
+tar -cvf test.tar打包的文件名 *.py 要打包的文件
+解包
+tar -xvf test.tar 解开
+gz压缩
+tar -zcvf test.tar.gz *.py
+tar -zxvf test.tar.gz 解压缩
 ```
 
