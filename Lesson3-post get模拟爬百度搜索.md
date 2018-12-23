@@ -39,7 +39,8 @@ ls -lah
 cd 进入目录
 
 touch 新建文件
-rm 删除文件
+rm 删除文件/删除目录
+rmdir 删除目录
 cat 查看文件
 
 # 参数先后顺序不影响效果
@@ -55,7 +56,7 @@ ls >> demo.txt 将新内容重定向到此文件中（末尾追加不覆盖）
 
 more 分屏显示查询内容
 
-#压缩与解压缩
+# 压缩与解压缩
 打包，不压缩
 tar -cvf test.tar打包的文件名 *.py 要打包的文件
 解包
@@ -63,5 +64,7 @@ tar -xvf test.tar 解开
 gz压缩
 tar -zcvf test.tar.gz *.py
 tar -zxvf test.tar.gz 解压缩
+
+
 ```
 
