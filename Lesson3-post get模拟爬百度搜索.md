@@ -41,6 +41,7 @@ ls -l # 显示详细文件信息
 ls -l -h # 增加显示文件大小
 ls -lah
 cd 进入目录
+cd ~ 进入自己当前账户的home目录
 
 touch 新建文件
 rm 删除文件/删除目录
@@ -119,6 +120,22 @@ su Switch User
 useradd new_user -m 添加用户 -m在home目录下创建同用户名目录
 passwd new_user 添加密码
 userdel 删除用户
+groupadd 新建组
+groupdel 删除组
+groupmod 查看现有所有组名
+sudo usermod -a -G sudo 用户名 将用户名加入sudo组中获得sudo权限
 su new_user
 exit 退出当前账户
 ```
+
+**文件权限修改命令**
+drwxrwxrwx 典型文件权限结构
+1：是否目录；
+2：拥有者权限 u
+3：同组人权限 g
+4：其他人权限 o
+```
+chmod u=rwx file_name 增加rwx权限
+r=4 w=2 x=1 # 可用数字法编辑权限
+```
+
