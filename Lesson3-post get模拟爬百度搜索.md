@@ -70,6 +70,12 @@ gz压缩
 tar -zcvf test.tar.gz *.py
 tar -zxvf test.tar.gz 解压缩
 
+# 系统管理相关的命令
+cal 日历 cal -y 2018
+date 日期
+ps process status 查看系统进程
+
+
 
 ```
 
