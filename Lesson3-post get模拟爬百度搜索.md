@@ -139,3 +139,6 @@ chmod u=rwx file_name 增加rwx权限
 r=4 w=2 x=1 # 可用数字法编辑权限
 ```
 
+**软件安装**
+yum安装CentOS软件 /和Ubantu不同
+apt - Ubantu
