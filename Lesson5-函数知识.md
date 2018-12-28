@@ -6,4 +6,5 @@ def wendu()
   wendu = 22
   return wendu
   
-定义函数，return后方可将函数赋值给其他变量。且return必须为函数内的变量。
+定义函数，return后方可将函数赋值给其他变量。且return必须为函数内的变量
+return可返回多个值，用list来封装
