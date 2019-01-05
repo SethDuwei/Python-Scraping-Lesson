@@ -1,14 +1,24 @@
 ### 文件操作
 
-经过Linux基本操作知识学习，vi基本操作学习，接EDX的Python基础课程（变量、注释、字符串操作、list、tuple、dictionary操作等），继续学习函数相关知识。
+主要功能：打开、读、写、关闭
 
+#### 打开 open()
 ```
-def wendu()
-  wendu = 22
-  return wendu
+f = open('test.txt','r')
 ```
-> 将重复使用的功能进行封装，是重要的编程思想
+第二个参数为打开方式
+* r 只读
+* w 写+覆盖
+* a 续后面写
+* r+ +w
+* w+ +r
+* a+ +r
+```
+import os
 
-定义函数，return后方可将函数赋值给其他变量。且return必须为函数内的变量
-
-return可返回多个值，用list来封装
+os.path.abspath('.')
+f = open('test.txt','w')
+f.write("haha")
+f2 = open('test.txt','r')
+f2.read() #将内容读取出来
+```
