@@ -20,5 +20,9 @@ os.path.abspath('.')
 f = open('test.txt','w')
 f.write("haha")
 f2 = open('test.txt','r')
-f2.read() #将内容读取出来
+f2.read() #将内容读取出来，全部内容为一个字符串
+f2.readline() # 每次读一行
+f2.readlines() #将内容读取出来，每一行作为一个列表元素。
+# 每一行用 \n 换行
+f2.close()
 ```
