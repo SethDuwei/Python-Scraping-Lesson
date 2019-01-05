@@ -12,11 +12,11 @@ def wendu()
 
 return可返回多个值，用list来封装
 
-return [a,b,c]
+```return [a,b,c]```
 
 可用tuple来封装
 
-return (a,b,c)
+```return (a,b,c)```
 
 #### 四种函数
 1. 无参数无返回值
