@@ -5,7 +5,7 @@
 #### 先定义类
 对象、属性、方法
 
-##### 定义默认属性
+##### 定义默认属性__init__
 
 ```
 class Cat: #建议驼峰
@@ -29,8 +29,19 @@ TypeError                                 Traceback (most recent call last)
 TypeError: __init__() missing 1 required positional argument: 'name'
 ```
 
-##### 定义__Str__方法
+##### 定义__str__方法
 作用：在使用 print(tom) 的时候设置默认打印输出项。如不使用，print出为tom对象地址
+
+```<__main__.Cat object at 0x7fb6df53abe0>```
+
+如定义__str___方法，则修改print(对象)后的输出，如：
+
+```
+  def __str__(self):
+    return "hello,我是默认打印方法" # 注意，该方法必须return
+```
+
+print(tom)输出为“hello，我是默认打印方法”
 
 
 ##### 定义方法
