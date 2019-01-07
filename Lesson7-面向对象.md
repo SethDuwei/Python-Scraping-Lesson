@@ -33,6 +33,7 @@ TypeError: __init__() missing 1 required positional argument: 'name'
 ```__self.name = name ```
 私有方法
 ```def __test(self):```
+对象不能调用私有方法和属性，只能在类内部调用
 
 ##### 定义__str__方法
 作用：在使用 print(tom) 的时候设置默认打印输出项。如不使用，print出为tom对象地址
