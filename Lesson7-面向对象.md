@@ -30,9 +30,13 @@ TypeError: __init__() missing 1 required positional argument: 'name'
 ```
 
 私有属性
+
 ```__self.name = name ```
+
 私有方法
+
 ```def __test(self):```
+
 对象不能调用私有方法和属性，只能在类内部调用
 
 ##### 定义__str__方法
