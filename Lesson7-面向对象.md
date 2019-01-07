@@ -79,4 +79,7 @@ tom = Cat(Animal):
 也可调用父类方法
 
 #### 多继承
+```
+tom = Cat(Animal,Toy)
+```
 
