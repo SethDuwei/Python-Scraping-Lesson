@@ -83,3 +83,7 @@ tom = Cat(Animal):
 tom = Cat(Animal,Toy)
 ```
 
+#### 多态
+```
+tom = Cat(Animal,Toy)
+```
