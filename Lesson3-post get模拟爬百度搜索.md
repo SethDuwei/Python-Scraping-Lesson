@@ -19,6 +19,9 @@ Python3中，urlencode()在parse模块中
 现在返回头认真学习基础课程
 传播智客的内容还是相当不错的
 
+> 1月10日补充
+> 在学习完基础入门课程，函数、OOP、文件等内容后，继续爬虫知识学习
+
 #### 3.Linux基本操作
 [【python基础】之linux教学 day1-08-命令的基本格式、ls选项 黑马程序员/传智播客](https://www.youtube.com/watch?v=LKk_Rtjyh2A&index=8&list=PLNTlJhYDV6sNBSVrIiA_QfIQwk4sPVsBj)
 根据此内容从最基本的开始练习，打好扎实基础
