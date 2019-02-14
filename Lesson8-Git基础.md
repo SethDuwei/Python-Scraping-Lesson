@@ -25,4 +25,13 @@ git push
 ```
 git pull
 ```
-
+显示所有的命令历史
+```
+git log
+```
+重置命令
+根据log命令出的hash码
+返回之前的某一版本
+```
+git reset --hard hashcode
+```
