@@ -1,9 +1,22 @@
-### 面向对象
-
-最核心内容
+### Git 命令行操作
+复制远程库到本地
+```
+git clone https:\\
+```
+添加文件到暂存区
+```
+git add file.name
+```
+确认将更新的文件添加到库
+```
+git commit -m "message" file.name
+```
+显示当前编辑库的状态
+```
+git status
+```
 
 #### 先定义类
-对象、属性、方法
 
 ##### 定义默认属性__init__
 
@@ -15,6 +28,4 @@ class Cat: #建议驼峰
     
 tom = Cat("tom") #属性赋值
 print(tom.name) #显示 tom
-```
-如果定义默认属性，创建对象时不赋值，会报错
 ```
