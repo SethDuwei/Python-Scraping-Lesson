@@ -20,6 +20,8 @@ git status
 git push
 ```
 把线上库内容取回来
+有人在之前更新了线上库，push会出问题
+先用pull同步内容，再push即可
 ```
 git pull
 ```
