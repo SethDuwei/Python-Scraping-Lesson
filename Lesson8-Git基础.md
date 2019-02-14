@@ -3,9 +3,17 @@
 ```
 git clone https:\\
 ```
-添加文件到库
+添加文件到暂存区
 ```
-git add https:\\
+git add file.name
+```
+确认将更新的文件添加到库
+```
+git commit -m "message" file.name
+```
+显示当前编辑库的状态
+```
+git status
 ```
 
 #### 先定义类
