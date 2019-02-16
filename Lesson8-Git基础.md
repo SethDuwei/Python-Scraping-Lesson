@@ -38,3 +38,5 @@ git log
 ```
 git reset --hard hashcode
 ```
+
+再次复习HTML/CSS基本知识

@@ -1,0 +1,38 @@
+h1 {
+    color:red;
+    text-align:center;
+}
+
+p {
+    color:blue;
+}
+
+div {
+    background-color:rgb(179, 179, 179);
+    width:1000px;
+    height:200px;
+    margin: 15px;
+    padding-left: 15px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+
+    border: 5px dotted black;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    font-weight: bold;
+    background-color: rgb(212, 212, 212);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
