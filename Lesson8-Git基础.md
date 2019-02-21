@@ -39,8 +39,12 @@ git log
 git reset --hard hashcode
 ```
 查看当前分支命令
+新建分支
+转到新建的分支
 ```
 git branch
+git branch feature
+git checkout feature
 ```
 
 
