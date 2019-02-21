@@ -38,5 +38,10 @@ git log
 ```
 git reset --hard hashcode
 ```
+查看当前分支命令
+```
+git branch
+```
+
 
 再次复习HTML/CSS基本知识
