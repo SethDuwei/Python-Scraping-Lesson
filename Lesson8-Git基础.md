@@ -41,11 +41,14 @@ git reset --hard hashcode
 查看当前分支命令
 新建分支
 转到新建的分支
+合并分支
 ```
 git branch
-git branch feature
+git branch feature(branch name)
 git checkout feature
+git merge feature
 ```
+
 
 
 再次复习HTML/CSS基本知识
