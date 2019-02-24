@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        is it new year
+    </title>
+    <style>
+        body {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    {% if new_year %}
+    <h1>Yes! Happy New Year!</h1>
+    {% else %}
+    <h1>NO</h1>
+    {% endif %}
+
+    <h1>Names</h1>
+    <ul>
+        {% for name in names %}
+        <li>{{name}}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('index') }}">Back</a>
+</body>
+
+</html>
