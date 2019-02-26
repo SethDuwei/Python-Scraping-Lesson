@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website!</title>
+</head>
+
+<body>
+    <img src="http://flask.pocoo.org/docs/1.0/_static/flask.png">
+    <h1>{% block title %}{% endblock %}</h1>
+    {% block body %}
+    {% endblock %}
+    <div #id="footer" style="margin-top:20px;padding:10px;background-color:#EEEEEE;">
+        {% block footer %}
+        copyright by BW Events, 2019
+        contact with founder of this company
+        {% endblock %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Second Page
+{% endblock %}
+
+{% block body %}
+<p>something new.</p>
+<a href="{{ url_for('index') }}">Go back</a>
+{% endblock %}

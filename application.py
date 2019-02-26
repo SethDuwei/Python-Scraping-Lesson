@@ -1,6 +1,4 @@
-import datetime
-
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -10,7 +8,12 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/loop")
-def loop():
-    names = ["Alice", "Bob", "Charlie"]
-    return render_template("newyear.html", names=names)
+@app.route("/more")
+def more():
+    return render_template("more.html")
+
+
+@app.route("/hello", methods=["POST"])
+def hello():
+    name = request.form.get("name")
+    return render_template("hello.html", name=name)
