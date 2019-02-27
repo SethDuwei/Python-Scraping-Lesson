@@ -4,10 +4,19 @@
 First Page
 {% endblock %}
 
+
 {% block body %}
-<form action="{{ url_for('hello') }}" method="post">
-    <input type="text" name="name" placeholder="Enter Your Name">
-    <button>Submit</button>
+<ul>
+    {% for note in notes %}
+    <li>{{ note }}</li>
+    {% endfor %}
+</ul>
+
+<h3>{{ notes[0] }}</h3>
+
+<form action="{{ url_for('index') }}" method="post">
+    <input type="text" name="note" placeholder="Enter Your Name">
+    <button>Add Name</button>
 </form>
 <p>something new.</p>
 <a href="{{ url_for('more') }}">Get more</a>
